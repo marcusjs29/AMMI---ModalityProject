@@ -12235,7 +12235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318196975}
   m_Layer: 0
-  m_Name: LeafBlower Air COllider
+  m_Name: LeafBlower Air Collider fra Nicolai i WaterSpray particle trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
