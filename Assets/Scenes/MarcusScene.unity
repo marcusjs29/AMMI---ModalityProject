@@ -9937,6 +9937,7 @@ GameObject:
   - component: {fileID: 1302493297}
   - component: {fileID: 1302493296}
   - component: {fileID: 1302493295}
+  - component: {fileID: 1302493298}
   m_Layer: 0
   m_Name: WaterSpray
   m_TagString: Untagged
@@ -12225,6 +12226,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
+--- !u!114 &1302493298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302493294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68eae956e5fd474b8645143b10c2d64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: HapticAudioFeedback::HapticAudioFeedback
+  hapticClip: {fileID: 2460798210113038985, guid: fd992fcb02f39c84e9ccc122534713bf, type: 3}
+  frequencyShift: 0
+  priority: 128
+  hapticStrength: 1
+  pulseAmplitude: 0.5
+  pulseDuration: 0.08
+  pulseFrequency: 0
+  sounds:
+  - {fileID: 8300000, guid: f54833d4ae62d364c83149da894c2e1f, type: 3}
+  volume: 1
+  pitchVariation: 0.05
+  spatialSound: 1
+  audioSource: {fileID: 0}
+  onHoverEnter: 0
+  onHoverExit: 0
+  onSelectEnter: 1
+  onSelectExit: 0
+  onActivate: 0
+  onDeactivate: 0
+  onCollision: 0
+  whileHeld: 0
+  collisionOnlyWhileHeld: 1
+  impactSpeedRange: {x: 0.25, y: 2.5}
+  scaleWithSpeed: 0
+  speedRange: {x: 0.05, y: 1.5}
+  minLoopStrength: 0.2
+  hand: 0
+  defaultHand: 1
+  cooldown: 0.05
+  onPlayed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1318196974
 GameObject:
   m_ObjectHideFlags: 0

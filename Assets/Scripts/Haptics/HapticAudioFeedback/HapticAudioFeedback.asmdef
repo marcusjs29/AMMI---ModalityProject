@@ -1,0 +1,23 @@
+{
+    "name": "HapticAudioFeedback",
+    "rootNamespace": "",
+    "references": [
+        "Unity.XR.Interaction.Toolkit",
+        "Oculus.Haptics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.meta.xr.sdk.haptics",
+            "expression": "1.0.0",
+            "define": "HAS_META_HAPTICS"
+        }
+    ],
+    "noEngineReferences": false
+}
